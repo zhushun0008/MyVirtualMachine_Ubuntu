@@ -1,6 +1,11 @@
 # My VirtualMachine Ubuntu
 
+### Basic Configuration 
+RAM
+Processors
+
 ### Basic Tools
+
 #### ssh
 #### Java
 ```
@@ -19,6 +24,7 @@ $ java -version
 ### Python
 #### Python 2.7
 #### Pycharm
+#### Tornado
 
 
 ### Redis
