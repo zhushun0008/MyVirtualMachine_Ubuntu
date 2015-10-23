@@ -1,13 +1,13 @@
-# My VirtualMachine Ubuntu
+# My VirtualMachine Ubuntu 14.04 LTS
 
-### Basic Configuration 
+## Basic Configuration 
 RAM
 Processors
 
-### Basic Tools
+## Basic Tools
 
-#### ssh
-#### Java
+### ssh
+### Java
 ```
 首先添加ppa
 
@@ -21,10 +21,19 @@ $ sudo apt-get install oracle-java8-installer
 $ java -version
 ```
 
-### Python
+## Python
+
 #### Python 2.7
 #### Pycharm
 #### Tornado
+#### Anacona
+
+1. Download the installer.
+  * https://www.continuum.io/downloads#_unix
+2. bash Anaconda-2.3.0-Linux-x86_64.sh
+NOTE: Type "bash" regardless of whether or not you are actually using the bash shell.
+3. Optional: Verify data integrity with MD5.
+
 
 
 ### Redis
