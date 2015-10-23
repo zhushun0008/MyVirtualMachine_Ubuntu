@@ -37,13 +37,22 @@ NOTE: Type "bash" regardless of whether or not you are actually using the bash s
 
 
 ### Redis
+1. Install Redis Server
+  * Install default version, which most of the time is not a newest version, e.g 2.8
+  ```
+   sudo apt-get install redis-server
+  ```
+  * Install Newest version from official site
 ```
 $ wget http://download.redis.io/releases/redis-3.0.5.tar.gz
 $ tar xzf redis-3.0.5.tar.gz
 $ cd redis-3.0.5
 $ make
 ```
-
+2. Install Redis-cli
+```
+sudo apt-get install redis-tools
+```
 ### MongoDB
 
 
